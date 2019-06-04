@@ -63,6 +63,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+---How to deploy this project on Firebase---
+1. Run command "npm run biuld"
+1. Register or sign in at firebase.google.com
+2. Create a new project there
+3. In console on your PC run command "npm install -g firebase-tools"
+4. After installation run following commands "firebase login", "firebase init" and choose "Hosting" option and enter your public directory (build), "firebase deploy"
+
+
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
